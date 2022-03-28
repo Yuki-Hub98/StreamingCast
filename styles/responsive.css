@@ -1,0 +1,41 @@
+@media screen and (max-width:700px) {
+    header .container{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+      margin-top: 5px;  
+      width: 300px;
+
+
+    }
+
+@media screen and (min-width: 1000px) {
+    .descricao{
+        width: 50%;
+    }    
+}  
+
+@media screen and (min-width: 280px) {
+    .podcast-principal {
+       width: 100%;
+        height: 500px;
+        align-items: center;
+        margin-left: 2.7px;
+       
+    }
+
+    .botao{
+        margin-top: 5px;  
+        width: 280px;
+        margin-left: 10px;
+  
+  
+      }
+    div nav a{
+        margin-left: 18px;
+    }
+}
+
+}

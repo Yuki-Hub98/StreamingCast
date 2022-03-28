@@ -1,0 +1,133 @@
+
+:root{
+    --vermelho:#E50914;
+    --preta:#000000;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Elementos base*/
+body{
+background: var(--preta);
+font-family: 'Ariel', Times, serif;
+color: aliceblue;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: aquamarine;
+    font-family: 'Ariel black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#AAA;
+    margin-right:10px ;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+ 
+nav{
+    margin-right: 25px;
+}
+/* podcast principal */
+.podcast-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/podpah.png');
+    
+    height: 450px;
+    background-size: cover;
+    background-position: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.podcast-principal .descricao{
+
+    margin-bottom: 40px;
+}
+.titulo{
+    font-size: 40px;
+    margin-top: 175px;
+}
+.botao{
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    color: #AAA;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s ease all ;
+    border-radius: 10px;
+    
+
+}   
+
+.botao:hover{
+
+    background-color: rgba(0, 0, 0, 0.20);
+    color: #fff;;
+}
+.botao i{
+
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.podcast-principal .container{
+    margin-left: 20px;
+    width: 90%;
+}
+
+.box-pod{
+height: 100%;
+width: 100%;
+display: block;
+
+}
+.carrosel-podcast{
+    margin-top: 20px;
+
+}
+main div a{
+    text-decoration: none;
+   color: #AAA;
+    ;
+}
+
+h2 {
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #98b995,
+    0 3px 0 #98b995,
+    0 4px 0 #98b995,
+    0 5px 0 #98b995,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+    }
